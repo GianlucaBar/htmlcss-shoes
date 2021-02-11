@@ -4,10 +4,8 @@
     box-sizing: border-box;
     padding: 0;
   }
+
   /* common  */
-  /* img{
-      width: 100%;
-  } */
   body{
       font-family: "Rubik Mono One", Arial, Helvetica, sans-serif;
   }
@@ -18,7 +16,7 @@
   /* bottoni fissi  */
   .buttons{
       position: fixed;
-      font-size: 30px;
+      font-size: 1.7vw;
       top: 40px;
       right: 30px;
       z-index: 2;
@@ -43,7 +41,7 @@
 
 /* blocchi  */
  .block{
-     height: 50vw;
+     height: 100vh;
      position: relative;
      text-align: center;
  }
@@ -86,4 +84,4 @@ img:hover {
   }
 /* fine blocchi  */
 
-  /* /main  */
+/* /main  */
