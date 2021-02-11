@@ -1,0 +1,89 @@
+/* reset  */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* common  */
+  /* img{
+      width: 100%;
+  } */
+  body{
+      font-family: "Rubik Mono One", Arial, Helvetica, sans-serif;
+  }
+  /* /common  */
+  
+  /* main  */
+
+  /* bottoni fissi  */
+  .buttons{
+      position: fixed;
+      font-size: 30px;
+      top: 40px;
+      right: 30px;
+      z-index: 2;
+  }
+
+  .btn{
+      border-radius: 50%;
+      height: 3vw;
+      width: 3vw;
+      text-align: center;
+      line-height: 3vw;
+      display: inline-block;
+      margin-left: 30px;
+      background: linear-gradient(124deg, rgba(255,255,255,1) 7%, rgb(99, 98, 98) 97%);
+      box-shadow: 5px 5px 6px rgba(0,0,0,0.3);
+  }
+                   
+.btn:hover{
+    cursor: crosshair;
+}
+/* fine bottoni fissi  */
+
+/* blocchi  */
+ .block{
+     height: 50vw;
+     position: relative;
+     text-align: center;
+ }
+
+ #first{
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(97, 211, 240) 50%, rgb(0, 0, 0) 100%);
+ }
+
+ #second{
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(148, 255, 106) 50%, rgb(0, 0, 0) 100%);
+    
+ }
+
+ #third{
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(247, 86, 185) 50%, rgb(0, 0, 0) 100%);
+ }
+
+/* contenitore centrato */
+ .container{
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+}
+
+.text h3{
+    font-size: 2vw;
+    text-transform: uppercase;
+    color: rgb(240, 239, 239);
+    text-shadow: 3px 3px 4px rgb(61, 60, 60);
+
+}
+.block:hover{
+    cursor: pointer;
+}
+
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+/* fine blocchi  */
+
+  /* /main  */
